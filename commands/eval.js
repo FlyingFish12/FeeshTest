@@ -8,8 +8,7 @@ module.exports = {
   aliases: [],
   execute(message, args, client) {
     if (
-      message.author.id === "427476318050058251" ||
-      message.author.id === "714863852441042965"
+      message.author.id === "427476318050058251"
     ) {
       var result = message.content.split(" ").slice(1).join(" ");
       let evaled = eval(result);
